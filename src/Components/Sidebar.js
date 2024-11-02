@@ -19,6 +19,7 @@ function Sidebar() {
                         <img src="icon-url-2.png" alt="Leaderboard" />
                         <h3>Leaderboard</h3>
                         <p>Check out the current standings!</p>
+                        <p></p>
                     </div>
                     <div className="card">
                         <img src="icon-url-3.png" alt="Projects" />
