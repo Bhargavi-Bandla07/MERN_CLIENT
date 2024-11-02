@@ -1,0 +1,101 @@
+.sidebar {
+    width: 300px;
+    /* background-color: #2d3e50; */
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+  }
+  
+  .sidebar-button {
+    /* background-color: #2d3e50; */
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar-button:hover {
+    background-color: #1a2739;
+  }
+  .sidebar-item{
+    padding-bottom: 20px;
+    width: 250px;
+  }
+
+  .card-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Space cards evenly */
+    margin-top: 20px; /* Space above the cards */
+}
+
+.card {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    width: 30%; /* Width of each card */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    text-align: center; /* Center text */
+    margin: 10px; /* Add margin between cards */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slightly lift card on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.card img {
+    width: 80px; /* Icon size */
+    height: 80px; /* Icon size */
+    margin-bottom: 15px; /* Space between image and text */
+}
+
+.card h3 {
+    margin: 0 0 10px; /* Margin for heading */
+    font-size: 1.5em; /* Increase heading font size */
+    color: #333; /* Dark gray color for heading */
+}
+
+.card p {
+    margin: 0; /* No margin for paragraph */
+    color: #666; /* Medium gray color for paragraph text */
+    font-size: 1em; /* Set paragraph font size */
+}
+
+  
+.counselling-diary-content {
+    margin-top: 20px;
+}
+
+.remarks {
+    margin-top: 10px;
+}
+
+.remark {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0; /* Space between remarks */
+}
+
+.exam-dropdown {
+    padding-left: 20px;
+}
+
+.exam-dropdown-item {
+    display: block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.exam-dropdown-item:hover {
+    background-color: #ddd;
+}
+

@@ -1,0 +1,32 @@
+{
+    "surveys": [
+        {
+            "id": 1,
+            "name": "Survey 1"
+        },
+        {
+            "id": 2,
+            "name": "Survey 2"
+        }
+    ],
+    "results": [
+        {
+            "id": 1,
+            "score": 85
+        },
+        {
+            "id": 2,
+            "score": 90
+        }
+    ],
+    "awards": [
+        {
+            "id": 1,
+            "title": "Best Survey"
+        },
+        {
+            "id": 2,
+            "title": "Top Performer"
+        }
+    ]
+}

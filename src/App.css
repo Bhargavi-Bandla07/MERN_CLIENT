@@ -1,0 +1,66 @@
+/* .App {
+  text-align: center;
+  background-color: white;
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center; Vertically center items
+  justify-content: space-between;
+  Position children with space between
+}
+
+
+.faculty-container {
+  display: flex;
+  flex-direction: row;
+  Align items horizontally
+  gap: 150px;
+  Adjust the space between the items
+  padding: 50px;
+  Optional padding around the container
+
+}
+
+.faculty-item {
+  border: 1px solid #ddd;
+  Border for card-like structure
+  border-radius: 8px;
+  Rounded corners
+  padding: 20px;
+  Padding inside the item
+  background-color: #fff;
+  Background color
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  Subtle shadow for card effect
+  max-width: 300px;
+
+  min-width: 250px;
+
+  display: flex;
+
+
+}
+
+.faculty-item ul {
+  list-style-type: none;
+
+  padding: 0;
+
+  margin: 0;
+
+}
+
+/* .faculty-item li {
+  margin-bottom: 10px;
+
+}  */
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
