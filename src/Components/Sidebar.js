@@ -24,6 +24,7 @@ function Sidebar() {
                     <div className="card">
                         <img src="icon-url-3.png" alt="Projects" />
                         <h3>Projects</h3>
+                       
                         <p>View ongoing and completed projects!</p>
                         <p>hello</p>
                     </div>
